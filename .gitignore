@@ -21,3 +21,8 @@
 /yarn-error.log
 
 .byebug_history
+
+# Ignore local gems
+/vendor/bundle
+# Ignore the database config
+/config/database.yml
