@@ -4,5 +4,6 @@ before_script:
   - cp config/database.yml.travis config/database.yml
 script:
   - bundle exec rails test
+  - bundle exec rake cucumber
 notifications:
   email: false
