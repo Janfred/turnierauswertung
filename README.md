@@ -1,5 +1,10 @@
 # README
 
+[![Dependency Status](https://gemnasium.com/badges/github.com/Janfred/turnierauswertung.svg)](https://gemnasium.com/github.com/Janfred/turnierauswertung)
+[![Build Status](https://travis-ci.org/Janfred/turnierauswertung.svg?branch=master)](https://travis-ci.org/Janfred/turnierauswertung)
+[![security](https://hakiri.io/github/Janfred/turnierauswertung/master.svg)](https://hakiri.io/github/Janfred/turnierauswertung/master)
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
