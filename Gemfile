@@ -52,3 +52,21 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# --- Custom gems ---
+
+gem 'mysql2'
+gem 'devise'
+gem 'devise-i18n'
+gem 'haml-rails'
+gem 'twitter-bootstrap-rails'
+gem 'cancancan'
+group :development do
+  gem 'better_errors'
+end
+group :test do
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
+  gem 'simplecov', :require => false
+  gem 'codacy-coverage', :require => false
+end
